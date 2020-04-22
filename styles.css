@@ -73,15 +73,8 @@ li > * {
     letter-spacing: 0.42px;
 }
 
-side_list_text_bold {
-    color: #595959;
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: 0.42px;
-}
-
 .about_container {
-    padding: 90px;
+    padding: 85px;
     box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
     background-color: #ffffff;
 }
