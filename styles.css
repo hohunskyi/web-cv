@@ -1,0 +1,154 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ol {
+    margin: 0;
+    padding-left: 16px;
+}
+
+ul {
+    margin: 0;
+    padding-left: 12px;
+    list-style: none;
+}
+
+ul li::before {
+    content: "\2022";
+    color: #ff6b08;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+ol li {
+    font-weight:bold;
+    color: black;
+}
+li > * {
+    font-weight: normal;
+    color: #595959;
+}
+
+.main_container {
+    padding: 40px;
+    background-color: #f5f7fa;
+    display: flex;
+    flex-direction: row;
+}
+
+.side_container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 350px;
+    background-color: #1e2939;
+}
+
+.side_text_container {
+    padding-top: 54px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 0px;
+}
+
+.side_image_container {
+    padding-top: 40px;
+}
+
+.side_section_titlle {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 12px;
+    line-height: 24px;
+}
+
+.side_list_item {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.42px;
+}
+
+side_list_text_bold {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+}
+
+.about_container {
+    padding: 90px;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+}
+
+.job_title {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+
+.name_title {
+    color: #000000;
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin: 0;
+}
+
+.section_title {
+    color: #000000;
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 52px;
+    padding-bottom: 18px;
+    margin: 0;
+}
+
+.content_title_default {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.48px;
+    color: #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+
+.content_title_highlighted  {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.48px;
+    color: #ff6b08;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 0;
+}
+
+.content_subtitle {
+    color: #a8a8a8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 0;
+}
+
+.description {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.42px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 0;
+}
